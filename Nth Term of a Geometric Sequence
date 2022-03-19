@@ -1,0 +1,12 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+	int a,b,c,d;
+	cin>>a>>b>>d;
+	c=b/a;
+	d=d-1;
+	long long o=0;
+	o=a*pow(c,d);
+	cout<<o;
+}
